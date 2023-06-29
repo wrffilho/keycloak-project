@@ -5,15 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/loucura") 
-public class LoucutaController {
-	
-	 @GetMapping
-		public String getUsuario() {
-			
-	    	return "Acessou";
+@RequestMapping("/api/v1/carro")
+public class CarroController {
 
-		}
+	@GetMapping
+	public String getUsuario() {
 
+		return "Acessou Carro controller";
+
+	}
 
 }
